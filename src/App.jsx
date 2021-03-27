@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col'
 import ToastHeader from 'react-bootstrap/ToastHeader'
 import ToastBody from 'react-bootstrap/ToastBody'
 import WordArt from 'react-wordart';
-import DarkModeToggle from "react-dark-mode-toggle";
+// import DarkModeToggle from "react-dark-mode-toggle";
 import Hello from './page/Hello';
 
 
@@ -36,11 +36,11 @@ function App() {
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
           </Form>
           <Button variant="outline-light">Search</Button>
-          <DarkModeToggle
+          {/* <DarkModeToggle
             onChange={setIsDarkMode}
             checked={isDarkMode}
             size={80}
-          />
+          /> */}
         
         </Navbar>
         
