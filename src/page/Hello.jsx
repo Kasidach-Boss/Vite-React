@@ -22,7 +22,7 @@ function Hello(){
                 <center><WordArt text='Hello, Vite+React!!!!!!' theme={`slate`} fontSize={50}></WordArt></center>
                 <br></br>
                 <Card>
-                 <Card.Body><h2>count: {count}</h2>   </Card.Body> 
+                 <Card.Body><h2 style={{color:'black'}}>count: {count}</h2>   </Card.Body> 
                 </Card>
                 <br></br>
                 <Button variant="primary" onClick={()=>setCount((count)=> count+1)}>Increase</Button>
